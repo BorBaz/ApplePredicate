@@ -7,6 +7,6 @@ public class ColorPrintApplePredicate implements ApplePrintPredicate {
 
     @Override
     public String print(Apple apple) {
-        return "La puta manzana es " + apple.getColor();
+        return "La manzana es " + apple.getColor();
     }
 }

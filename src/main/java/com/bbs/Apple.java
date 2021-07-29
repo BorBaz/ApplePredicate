@@ -2,13 +2,12 @@ package com.bbs;
 
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 @Data
-@Getter
-@Setter
 public class Apple {
+
+    private String color;
+    private short weight;
 
     public Apple(String color) {
         this.color = color;
@@ -18,7 +17,4 @@ public class Apple {
         this.color = color;
         this.weight = weight;
     }
-
-    private String color;
-    private short weight;
 }
